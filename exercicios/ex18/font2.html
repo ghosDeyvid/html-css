@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonte Externsa</title>
+<style>
+    @font-face {
+        font-family:cali;
+    src: url('fontes/cali.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+        /*
+        tipos de formas
+        - opentype (otf)
+        - truetype(ttf)
+        - embedded-opentype
+        -truetype -aap(apple advanced typography)
+        -svg
+        */
+    }
+    @font-face {
+        font-family:love;
+        src: url('fontes/love.ttf'), format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    body{
+        font-family: Arial, Helvetica, sans-serif
+    }
+    h1{
+        font-family: 'love', Times, serif;
+        font-size: 3em;
+    }
+    p{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+</style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p style="font-family: 'cali', Times, serif;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aliquid voluptates, in libero molestiae unde impedit placeat voluptas nisi laudantium sequi perspiciatis, ex sed quod incidunt nulla qui necessitatibus vel!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et fugit vero nulla velit animi iste ad, distinctio natus dolores. Illo, possimus expedita magnam officiis omnis quas et iusto ullam magni.</p>
+</body>
+</html>
