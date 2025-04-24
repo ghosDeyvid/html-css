@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Boldonse&family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+ *{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: aliceblue;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    min-height: 150px;
+    padding-top: 61px;
+    padding-bottom: 50px;
+    box-shadow: 11px 1px 9px rgba(0, 0, 0, 0.535);
+}
+header > h1{
+background-attachment: fixed;
+margin-bottom: 20px;
+font-size: 4em;
+font-family: "Boldonse", system-ui;
+}
+header p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:1em;
+}
+header a{
+    color: wheat;
+    text-decoration: dashed;
+    font-weight: bold;
+}
+section{
+    font-family: "Sriracha", cursive;
+}
+section#p1{
+    background-color: rgb(255, 255, 255);
+    padding: 80px;
+    font-size: 1.8em;
+}
+section#p2{
+    background: url('imagens/background001.jpg') center no-repeat fixed;
+    background-size: cover;
+    color: white;
+    padding: 80px;
+    font-size: 1.8em;
+}
+section#p3{
+    background-color: white;
+    padding: 80px;
+    font-size: 1.8em;
+}
+p.bloco{
+    background-color: rgba(0, 0, 0, 0.296);
+    padding: 20px;
+    width: 372px;
+}
+
