@@ -60,3 +60,29 @@ p.bloco{
     width: 372px;
 }
 
+section#p4{
+    background:url('imagens/background002.jpg') center no-repeat fixed;
+    background-size:cover;
+    color: white;
+    padding: 80px;
+    font-size: 1.8em;
+}
+section#p5{
+    background-color: white;
+    padding: 80px;
+    font-size: 1.8em;
+}
+footer{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+footer a{
+    color: white;
+    text-decoration: double;
+}
+
