@@ -7,32 +7,39 @@
     margin: 0%;
     padding: 0%;
 }
+
 body{
+    min-height: 100vh;
     background-color: aliceblue;
 }
 header{
     background-color: black;
     color: white;
     text-align: center;
-    min-height: 150px;
+    min-height: 100px;
     padding-top: 61px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     box-shadow: 11px 1px 9px rgba(0, 0, 0, 0.535);
 }
 header > h1{
-background-attachment: fixed;
-margin-bottom: 20px;
-font-size: 4em;
-font-family: "Boldonse", system-ui;
+    background-attachment: fixed;
+    font-variant: small-caps;
+    padding-top: 50px;
+    font-size: 6em;
+    font-family: "Boldonse", system-ui;
 }
-header p{
+header > p{
     font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 50px;
     font-size:1em;
 }
-header a{
-    color: wheat;
-    text-decoration: dashed;
-    font-weight: bold;
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
 }
 section{
     font-family: "Sriracha", cursive;
@@ -81,8 +88,3 @@ footer{
     padding-top: 30px;
     padding-bottom: 20px;
 }
-footer a{
-    color: white;
-    text-decoration: double;
-}
-
