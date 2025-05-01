@@ -25,13 +25,13 @@ header > h1{
     background-attachment: fixed;
     font-variant: small-caps;
     padding-top: 50px;
-    font-size: 6em;
+    font-size: 7vw;
     font-family: "Boldonse", system-ui;
 }
 header > p{
     font-family: 'Times New Roman', Times, serif;
     padding-bottom: 50px;
-    font-size:1em;
+    font-size:2vw;
 }
 a{
     color: rgb(255, 255, 255);
@@ -43,28 +43,27 @@ a:hover{
 }
 section{
     font-family: "Sriracha", cursive;
+    font-size: 3vw;
 }
 section#p1{
     background-color: rgb(255, 255, 255);
     padding: 80px;
-    font-size: 1.8em;
 }
 section#p2{
     background: url('imagens/background001.jpg') center no-repeat fixed;
     background-size: cover;
     color: white;
     padding: 80px;
-    font-size: 1.8em;
 }
 section#p3{
     background-color: white;
     padding: 80px;
-    font-size: 1.8em;
+    
 }
 p.bloco{
     background-color: rgba(0, 0, 0, 0.296);
     padding: 20px;
-    width: 372px;
+    display: inline-block;
 }
 
 section#p4{
@@ -72,13 +71,10 @@ section#p4{
     background-size:cover;
     color: white;
     padding: 80px;
-    font-size: 1.8em;
 }
 section#p5{
     background-color: white;
     padding: 80px;
-    font-size: 1.8em;
-}
 footer{
     background-color: black;
     font-family: 'Times New Roman', Times, serif;
