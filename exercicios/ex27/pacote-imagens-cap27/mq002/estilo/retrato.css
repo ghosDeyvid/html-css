@@ -1,0 +1,6 @@
+/* orientation: portrait em pé*/
+
+body{
+    background-image: url(../imagem/cev-portrait.jpg);
+    background-position: center bottom;
+}
