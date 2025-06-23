@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=dehaze" />
+    
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
-        <menu>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+dehaze
+</span>
+        <menu id="item">
             <ul>
                 <li><a href="#">opção 1</a></li>
                 <li><a href="#">opção 2</a></li>
@@ -27,5 +32,14 @@
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus enim odio et dolorum ipsum nostrum, veritatis, doloribus, aliquam nisi eius repellendus ratione? Distinctio, explicabo voluptas? Voluptatum odit fuga tempora laboriosam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero cumque iure nostrum mollitia est. Consequuntur laboriosam aliquid odio quis, consequatur sit voluptatibus ratione alias eligendi, excepturi accusamus qui ducimus quae.</p>
         </article>
     </main>
+    <script>
+        function clickMenu(){
+            if(item.style.display=='block'){
+                item.style.display='none'
+            }else{
+                item.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
